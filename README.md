@@ -1,5 +1,6 @@
 def weight_converter():
     input_str = input().strip()
+
     if input_str.endswith('kg'):
         kg = float(input_str[:-2])
         pd = kg * 2.2046
